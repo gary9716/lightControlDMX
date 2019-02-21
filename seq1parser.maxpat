@@ -254,7 +254,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 369.0, 262.5, 98.0, 22.0 ],
+					"patching_rect" : [ 369.0, 257.5, 98.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -2009,7 +2009,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 182.0, 628.5, 30.0, 30.0 ]
+					"patching_rect" : [ 179.0, 467.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -2020,7 +2020,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 223.0, 628.5, 58.0, 22.0 ],
+					"patching_rect" : [ 220.0, 467.5, 58.0, 22.0 ],
 					"text" : "pv curVal"
 				}
 
@@ -2032,7 +2032,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 58.0, 490.5, 29.5, 22.0 ],
+					"patching_rect" : [ 55.0, 329.5, 29.5, 22.0 ],
 					"text" : "0"
 				}
 
@@ -2044,7 +2044,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 58.0, 452.5, 111.0, 22.0 ],
+					"patching_rect" : [ 55.0, 291.5, 111.0, 22.0 ],
 					"text" : "receive setTimeline"
 				}
 
@@ -2057,7 +2057,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 201.0, 448.5, 20.0, 140.0 ],
+					"patching_rect" : [ 198.0, 287.5, 20.0, 140.0 ],
 					"size" : 256.0,
 					"varname" : "lightValCtrler"
 				}
@@ -2151,54 +2151,6 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"id" : "obj-172",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 100.0, 100.0, 164.0, 22.0 ],
-					"text" : "ktCtrlerSingle 00:00:00 5 255"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-173",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 100.0, 130.0, 152.0, 22.0 ],
-					"text" : "ktCtrlerSingle 00:02:21 3 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-174",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 100.0, 160.0, 164.0, 22.0 ],
-					"text" : "ktCtrlerSingle 00:09:26 5 255"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-175",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 100.0, 190.0, 158.0, 22.0 ],
-					"text" : "ktCtrlerSingle 00:10:30 10 0"
-				}
-
-			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -2273,34 +2225,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-142", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-32", 0 ],
-					"source" : [ "obj-172", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-32", 0 ],
-					"source" : [ "obj-173", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-32", 0 ],
-					"source" : [ "obj-174", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-32", 0 ],
-					"source" : [ "obj-175", 0 ]
 				}
 
 			}
@@ -2481,17 +2405,17 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "ktCtrlerSingle.maxpat",
-				"bootpath" : "~/Documents/Maxmsp/LightControlCase",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "seqGenerator.js",
 				"bootpath" : "~/Documents/Maxmsp/LightControlCase",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ktCtrlerSingle.maxpat",
+				"bootpath" : "~/Documents/Maxmsp/LightControlCase",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
