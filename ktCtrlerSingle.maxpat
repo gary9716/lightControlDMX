@@ -65,7 +65,7 @@
 				"box" : 				{
 					"comment" : "light value",
 					"id" : "obj-76",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -349,7 +349,9 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }
