@@ -43,7 +43,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 169.0, 56.500030517578125, 73.254150390625, 20.0 ],
+					"patching_rect" : [ 996.0, 475.500030517578125, 73.254150390625, 20.0 ],
 					"text" : "00:00:00"
 				}
 
@@ -55,7 +55,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 169.0, 19.0, 79.0, 22.0 ],
+					"patching_rect" : [ 996.0, 438.0, 79.0, 22.0 ],
 					"text" : "r currentTime"
 				}
 
@@ -77,7 +77,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 81.0, 104.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2039,7 +2039,20 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"visible" : 1,
 										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-84",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 100.0, 132.5, 164.0, 22.0 ],
+													"text" : "ktCtrlerSingle 00:09:26 5 255"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-28",
@@ -2120,7 +2133,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 100.0, 130.0, 164.0, 22.0 ],
+													"patching_rect" : [ 100.0, 164.0, 164.0, 22.0 ],
 													"text" : "ktCtrlerSingle 00:10:30 10 51"
 												}
 
@@ -2167,6 +2180,13 @@
 													"destination" : [ "obj-29", 0 ],
 													"order" : 0,
 													"source" : [ "obj-32", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-32", 0 ],
+													"source" : [ "obj-84", 0 ]
 												}
 
 											}
@@ -2688,6 +2708,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"comment" : "",
@@ -5486,7 +5507,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 56.0, 385.0, 858.502197265625, 630.11859130859375 ],
+					"patching_rect" : [ 56.0, 385.0, 858.502197265625, 630.118599916115727 ],
 					"pic" : "action1Layout.png"
 				}
 
