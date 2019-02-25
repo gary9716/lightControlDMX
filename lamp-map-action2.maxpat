@@ -112,7 +112,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1591.845703125, 434.76263427734375, 73.254150390625, 20.0 ],
-					"text" : "00:10:01"
+					"text" : "00:01:10"
 				}
 
 			}
@@ -1074,7 +1074,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 472.0, 265.166717529296875, 73.254150390625, 20.0 ],
-									"text" : "00:10:01"
+									"text" : "00:01:10"
 								}
 
 							}
@@ -6056,6 +6056,14 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-16", 0 ],
+									"order" : 3,
+									"source" : [ "obj-20", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-196", 0 ],
 									"order" : 2,
 									"source" : [ "obj-20", 0 ]
 								}
