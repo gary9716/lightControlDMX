@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 56.0, 120.0, 1852.0, 930.0 ],
+		"rect" : [ 55.0, 79.0, 1191.0, 687.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -112,7 +112,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1591.845703125, 434.76263427734375, 73.254150390625, 20.0 ],
-					"text" : "00:10:27"
+					"text" : "00:01:10"
 				}
 
 			}
@@ -145,7 +145,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 56.0, 167.0, 1212.0, 873.0 ],
+						"rect" : [ 34.0, 59.0, 1212.0, 707.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -172,7 +172,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-73",
@@ -202,7 +201,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 81.0, 104.0, 640.0, 480.0 ],
+										"rect" : [ 34.0, 34.0, 1212.0, 732.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -676,7 +675,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 5,
 									"numoutlets" : 0,
-									"patching_rect" : [ 303.92388916015625, 589.5, 85.0, 22.0 ],
+									"patching_rect" : [ 303.92388916015625, 616.5, 85.0, 22.0 ],
 									"text" : "dac~ 1 2 3 4 5"
 								}
 
@@ -917,8 +916,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 579.49993896484375, 399.666656494140625, 45.0, 22.0 ],
-									"text" : "2 0 0 0"
+									"patching_rect" : [ 579.49993896484375, 399.666656494140625, 55.0, 22.0 ],
+									"text" : "2 0 0 0 0"
 								}
 
 							}
@@ -1031,14 +1030,14 @@
 									"patching_rect" : [ 311.67388916015625, 416.666656494140625, 54.0, 136.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_mmin" : -70.0,
 											"parameter_longname" : "live.gain~[1]",
 											"parameter_initial_enable" : 1,
 											"parameter_mmax" : 6.0,
 											"parameter_initial" : [ -70 ],
 											"parameter_shortname" : "live.gain~",
 											"parameter_type" : 0,
-											"parameter_unitstyle" : 4
+											"parameter_unitstyle" : 4,
+											"parameter_mmin" : -70.0
 										}
 
 									}
@@ -1105,7 +1104,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 472.0, 265.166717529296875, 73.254150390625, 20.0 ],
-									"text" : "00:10:27"
+									"text" : "00:01:10"
 								}
 
 							}
